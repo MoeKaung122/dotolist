@@ -1,0 +1,32 @@
+body{
+    background-color: gray;
+}
+.container{
+   
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    margin-top: 100px;
+}
+.form-control{
+    max-width: 400px;
+    display: block;
+}
+.parntdiv{
+    cursor: pointer;
+    padding: 5px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
+    user-select: none;
+    display: inline-block;
+    
+}
+.fa-solid{
+    cursor: pointer;
+    color: black;
+}
+.through{
+    text-decoration: line-through;
+}
