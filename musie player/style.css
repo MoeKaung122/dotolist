@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   
+
+}
+.playlistcontainer{
+    margin-bottom: 100px;
+}
+.containerdiv{
+    padding: 10px 0;
+    font-size: 20px;
+    color: #ffc107;
+    border-bottom: 1px solid #6c757d;
+    cursor: pointer;
+    user-select: none;
+}
+.audio-minute{
+    text-align: center;
+}
+.audio-minute{
+    font-size: 20px;
+    color: black;
+}
+#audio-container{
+    width: 500px;
+    height: 5px;
+    background-color: #6c757d
+}
+
+#audio-container #audio-containertage{
+    background-color: red;
+    width: 0;
+    height: 100%;
+}
+.musicPlayer{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.fa-solid {
+
+    font-size: 20px;
+}
+.next-skip{
+    margin-left: 20px;
+}
+.back-skip{
+    margin-right: 20px;
+}
+.pause{
+    display: none;
+}
