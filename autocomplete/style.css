@@ -1,0 +1,39 @@
+body {
+    background-color: #343a40;
+}
+.container{
+    margin-top: 100px;
+    max-width: 500px;
+  
+}
+.form-control{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.listcontainer  {
+   
+   background-color: #fff;
+  
+}
+.containerdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 10px;
+    height: 60px;
+    
+    border-bottom: 1px solid black;
+}
+.title{
+    font-size: 18px;
+    width: 80%;
+}
+.image{
+    
+    height: 80%;   
+}
+.show {
+    color: #fff;
+}
