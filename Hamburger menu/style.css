@@ -1,0 +1,79 @@
+body {
+    background-color: gray;
+}
+.container {
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: 100px;
+   
+    position: relative;
+}
+.line1 , .line2 ,.line3 ,.hidediv , .movelitag {
+    transition: all 0.5s ease;
+}
+
+.humburger-container {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+.hideline2 {
+    opacity: 0;
+}
+
+.hidediv {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(36, 33, 33);
+    opacity:0 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.movelitag {
+    transform: translateY(-10px);
+}
+ul {
+    user-select: none;
+    cursor: pointer;
+}
+li{
+    list-style: none;
+    font-size: 30px;;
+    color: #fff ;
+    padding: 10px 0;
+}
+.hide{
+    opacity: 1;
+}
+.rotatePlus45deg {
+    transform: rotate(45deg) translate(4px , 17px);
+    
+}
+.rotateMinus45deg {
+    transform: rotate(-45deg) translate(4px , -17px);
+}
+.humburger {
+    width: 40px;;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        margin-left: 0;
+    }
+   
+    li{
+        font-size: 20px;;
+    }
+    
+}
