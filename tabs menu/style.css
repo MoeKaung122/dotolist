@@ -1,0 +1,35 @@
+body{
+    background-color: #343a40;
+}
+.container {
+    margin-top: 50px;
+    margin-left: 200px;
+    position: relative;
+}
+li {
+    list-style: none;
+    font-size: 30px;
+    color: #fff;
+    padding:  10px;
+    display: inline-block;
+    background-color: rgb(29, 16, 16);
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.side-bar{
+    width: 10px;
+    height: 5px;
+    background-color: aqua;
+    transition: all 0.5s ease-in-out
+}
+.hello {
+    margin-top: 50px;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 0;
+    cursor: pointer;
+    user-select: none;
+   
+}
