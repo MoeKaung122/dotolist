@@ -1,0 +1,34 @@
+*
+body {
+    background-color: #343a40;
+    height: 100vh;
+}
+
+
+.container {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.alert { 
+    width: 100%; 
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background-color: #28a745;
+    transition: all 0.5s ease-in-out;
+    margin: 0;
+}
+
+.parnt-div{ 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 10px;   
+}
+.btn-light {
+    margin-left: 10px;
+}
